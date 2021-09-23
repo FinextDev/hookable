@@ -1,5 +1,5 @@
 {
-    "name": "sofa/hookable",
+    "name": "finextdev/hookable",
     "description": "Laravel Eloquent hooks system.",
     "license": "MIT",
     "support": {
@@ -15,6 +15,9 @@
             "role": "Developer"
         }
     ],
+    "replace": {
+        "sofa/hookable": "self.version"
+    },
     "require": {
         "php": ">=7.0",
         "illuminate/database": ">=5.4"
